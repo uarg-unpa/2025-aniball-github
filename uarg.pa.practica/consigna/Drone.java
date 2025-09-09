@@ -13,15 +13,24 @@ public class Drone {
         this.Bateria=Bateria;
         this.Altura=Altura;
     }
+
+
     public int getBateria(){
         return Bateria;
     }
     public boolean Despega(){
-        if (Bateria>20)
+        if (Bateria>20){
             return true;
-        else
+        }
+        else{
             return false;
-
+        }
     }
-
+    public void Informe(){
+        System.out.println("-Estado del Drone-");
+        System.out.println("Modelo:" + Modelo);
+        System.out.println("Batería:" + Bateria);
+        System.out.println("Cantidad de viajes:" + Viajes);
+        
+    }
 }

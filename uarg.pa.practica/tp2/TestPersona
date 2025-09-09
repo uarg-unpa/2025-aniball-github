@@ -1,0 +1,7 @@
+public class TestPersona(){ 
+    Persona persona1;
+    Persona persona2;
+    
+    
+
+}

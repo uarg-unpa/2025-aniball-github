@@ -4,7 +4,7 @@ public class Persona {
    String apellido;
    int edad;
    int dni;
-
+// Comento solo para tener un cambio
    public Persona(String nombre, String apellido, int edad, int dni)
    {
     this.nombre=nombre;
